@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw10"
+version = "0.1.0"
+description = ""
+authors = ["Joohny21 <112joohny@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-redis-cache = "^1.2.0"
+redis = "^4.4.2"
+bson = "^0.5.10"
+keyboard = "^0.13.5"
+mongoengine = "^0.26.0"
+faker = "^16.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
